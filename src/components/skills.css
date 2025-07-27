@@ -1,0 +1,69 @@
+  .skills-container {
+  padding: 2rem;
+ background-color: rgb(11,26, 52);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skills-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Flex grid for 2 cards per row */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.skills-items {
+  flex: 0 1 calc(50% - 2rem); /* 2 cards per row with gap */
+  
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(149, 209, 10, 0.801);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skills-items:hover {
+  transform: translateY(-5px);
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.item p {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #a7e00b;
+}
+@media (max-width: 480px) {
+  .skills-container {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .skills-items {
+    flex: 0 1 calc(50% - 1rem); /* 2 items per row even on small screens */
+    padding: 1rem;
+  }
+
+  .item img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .item p {
+    font-size: 0.9rem;
+  }
+}

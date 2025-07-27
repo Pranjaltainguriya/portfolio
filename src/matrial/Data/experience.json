@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "role": "created real time chat aplication",
+    "organisation": "Google",
+    "startDate": "using socket.io",
+    "endDate": "react",
+    "location": "fully functional",
+    "experiences": [
+      "Worked on Google Gmail",
+      "Worked with the Google Bard Team"
+    ],
+    "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdP6AKFlNa3Afg4RJOp7OtR7RGRrlPE2KbLg&s"
+  },
+  {
+    "id": 2,
+    "role": "working e commerce website",
+    "organisation": "Mirosoft",
+    "startDate": "using mern stack",
+    "endDate": "admin panel support",
+    "location": "fully functional",
+    "experiences": [
+      "Worked on Windows 10 terminal",
+      "Worked on Window 11 Upcoming features"
+    ],
+    "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUyITgyNP2_U_ogNb9_TknsLJpivZ607gvow&s"
+  },
+  {
+    "id": 3,
+    "role": "netflix clone",
+    "organisation": "Netflix",
+    "startDate": "using mern stack",
+    "endDate": "large file support",
+    "location": "Bengluru, India",
+    "experiences": [
+      "Worked on Nextflix payment system",
+      "Helped to create UI for video player"
+    ],
+    "imageSrc": "https://cdn-icons-png.flaticon.com/512/732/732221.png"
+   
+  }
+]
