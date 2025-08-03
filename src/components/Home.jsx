@@ -9,10 +9,11 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        'WELCOME TO MY PORTFOLIO',
-        'I am Dhruv Mudhagal',
+        'Welcome to my profile',
+        'I am Dhruv Mudagal',
         'Full Stack Developer',
         'Specialized in Java',
+        'Software developer',
       ],
       typeSpeed: 50,
       backSpeed: 50,
