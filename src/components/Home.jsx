@@ -9,7 +9,7 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        'Welcome to my profile',
+        'Welcome to my page',
         'I am Dhruv Mudagal',
         'Full Stack Developer',
         'Specialized in Java',
@@ -36,7 +36,7 @@ const Home = () => {
           <span ref={typedRef}></span>
         </p>
         <a href={pdf} className="btn btn-outline-warning" download>
-          Download Resume.pdf
+          Download Resume
         </a>
       </div>
       <div className="home-right"
@@ -47,7 +47,7 @@ const Home = () => {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ13huNceuTbD4SzPp_WWtAp2FKH5Co7a6wJg&s"
             alt="Hero showcasing developer"
           />
-          <p id="name">Dhruv Mudhagal</p>
+          <p id="name">Dhruv Mudagal</p>
         </div>
       </div>
     </div>
