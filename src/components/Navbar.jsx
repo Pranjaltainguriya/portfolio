@@ -6,11 +6,10 @@ const Navbar = () => {
       <div className="container nav">
         <div className="left"> Portfolio</div>
       <div className="rightt">
-        <a href="#Home" className="nav-item"> home</a>
-        <a href="#Skills" className="nav-item"> skills</a>
-        <a href="#exprince" className="nav-item">exprince</a>
-        <a href="" className="nav-item"> projects</a>
-        <a href="#contant" className="nav-item"> contant</a>
+        <a href="#Home" className="nav-item"> Home</a>
+        <a href="#Skills" className="nav-item"> Skills</a>
+        <a href="#exprince" className="nav-item">Projects</a>
+        <a href="#contant" className="nav-item"> Contant</a>
       </div>
       </div>
     </div>
